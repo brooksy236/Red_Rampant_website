@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'dumbledor1';
+    src: url(./fonts/dumbledor/dum1/dum1.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'dumbledor2';
+    src: url(./fonts/dumbledor/dum2/dum2.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'dumbledor3';
+    src: url(./fonts/dumbledor/dum3/dum3.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'notebookGreater';
+    src: url(./fonts/RRNotebookGreater.otf);
+  }
+  @font-face {
+    font-family: 'notebookLesser';
+    src: url(./fonts/RRNotebookLesser.otf);
+  } 
+
+/* site-wide elements */
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: -1 ;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    background-image: url(./images/buttonBackground.png);
+    margin: 3px;
+    border: 1px solid goldenrod;
+    padding: 2px;
+}
+
+a {
+    font-family: 'dumbledor1';
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(13, 13, 68);
+}
+
+header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parchment {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    z-index: -1;
+}
+
+h1 {
+    display: inline;
+    font-family: dumbledor1;
+    font-size: 5vh;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    z-index: 1;
+}
+span {
+    font-family: notebookGreater;
+}
+
+/* 'The Game' page specific elements */
+
+.gameBody {
+    background-image: url(./images/TheGame_Background.gif);    
+}
+
+.gametitle {
+    position: absolute;
+    width: 42%;
+    z-index: 1;
+}
+
+#gameHeader {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.companyLogo {
+    display: inline;
+    width: 13%;
+}
+
+#companyLogo {
+    display: inline;
+    width: 100%;
+}
+
+.gameLogo {
+    display: inline;
+    width: 9%;
+}
+
+#gameLogo {
+    display: inline;
+    width: 100%;
+}
+
+.videoplayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.trailer {
+    height: 365px;
+    width: 600px;
+    
+}
+
+.blurb {
+    display: grid;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-image: url(./images/buttonBackground.png);
+    filter: opacity(50%);
+    border: 5px solid rgb(255, 217, 0);
+}
+
+p {
+    display: flex;
+    padding: 0 10px;
+    color: rgb(13, 13, 68);
+    font-size: 1.3rem;
+    font-family: dumbledor1;
+    text-align: center;
+}
+
+.social_link {
+    width: 50px;
+}
+
+footer ul li a {
+    display: flex;
+    margin: 3px;
+    padding: 2px;
+}
+
+footer ul li{
+    background-image: none;
+    border: none;
+}
+
+/* 'The Journey' page specific elements */
+
+.journeyBody {
+    background-image: url(./images/TheJourney_Background.png);        
+}
+
+.blogs {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 0 10%;
+}
+
+.blog_post {
+    width: 70%;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+.navArrow {
+    width: 20%;
+    margin: 10px;
+}
+
+.navArrow img {
+    padding: 25%;
+    width: 50%;
+}
+
+/* 'The Press' page specific elements */
+
+.pressBody {
+    background-image: url(./images/ThePress_Background.png);
+}
+
+.press {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 0 10%;
+}
+
+.pressClipping {
+    width: 70%;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/* 'The Team' page specific elements */
+
+.teamBody {
+    background-image: url(./images/TheTeam_Background.png);
+    background-size: cover;
+}
+
+.team {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.developer {
+    background-color: bisque;
+    width: 150px;
+    margin: 10px;
+}
