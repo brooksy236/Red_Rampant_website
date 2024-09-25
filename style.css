@@ -21,6 +21,10 @@
 
 /* site-wide elements */
 
+* {
+    padding: 0%;
+}
+
 body {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -32,6 +36,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 0px;
 }
 
 li {
@@ -39,7 +44,9 @@ li {
     background-image: url(./images/buttonBackground.png);
     margin: 3px;
     border: 1px solid goldenrod;
+    justify-content: center;
     padding: 2px;
+    width: 115px;
 }
 
 a {
@@ -47,6 +54,7 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
     color: rgb(13, 13, 68);
+    
 }
 
 header {
@@ -71,6 +79,12 @@ h1 {
     width: 30%;
     z-index: 1;
 }
+
+h2 {
+    font-family: dumbledor1;
+
+}
+
 span {
     font-family: notebookGreater;
 }
@@ -245,5 +259,9 @@ iframe {
 
 .developer img {
     border: 3px solid gold;
-    al
+    
+}
+
+br {
+    margin: -8px;
 }
