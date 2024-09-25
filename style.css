@@ -23,6 +23,11 @@
 
 * {
     padding: 0%;
+
+}
+
+html, body, a {
+    cursor: url(./images/cursor.cur), auto ;
 }
 
 body {
@@ -54,7 +59,6 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
     color: rgb(13, 13, 68);
-    
 }
 
 header {
@@ -173,6 +177,7 @@ footer ul li a {
 footer ul li{
     background-image: none;
     border: none;
+    width: auto;
 }
 
 /* 'The Journey' page specific elements */
