@@ -31,7 +31,7 @@ body {
 ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 li {
@@ -220,16 +220,30 @@ iframe {
 
 .teamBody {
     background-image: url(./images/TheTeam_Background.png);
-    background-size: cover;
 }
 
 .team {
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .developer {
+    display: grid;
     background-color: bisque;
-    width: 150px;
+    justify-items: center;
+    align-content: center;
+    width: 250px;
     margin: 10px;
+}
+
+.developer p {
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.developer img {
+    border: 3px solid gold;
+    al
 }
