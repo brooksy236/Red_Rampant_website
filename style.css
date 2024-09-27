@@ -190,7 +190,7 @@ footer ul li{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    max-width: auto;
+    /* max-width: auto; */
     margin: 0 10%;
 }
 
@@ -217,22 +217,21 @@ footer ul li{
 }
 
 .press {
-    display: inline-flex;
+    /* display: inline-flex; */
     justify-content: center;
     align-items: center;
-    max-width: auto;
+    /* max-width: auto; */
     margin: 0 10%;
 }
 
 .pressClipping {
-    width: 70%;
-    background-color: bisque;
     border: 2px solid black;
+    width: 1028px;
+    height: 578px;
 }
 
 iframe {
-    width: 100%;
-    height: 450px;
+    width: 750px;
 }
 
 /* 'The Team' page specific elements */
@@ -270,3 +269,25 @@ iframe {
 br {
     margin: -8px;
 }
+
+/* Carousel  */
+
+/* .carousel .carousel_item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    min-height: 500px;
+    top: 0;
+    left: 0;
+}
+
+.carousel-item iframe {
+    position: absolute;
+    object-fit: cover;
+    min-height: 500px;
+    top: 0;
+    left: 0;
+} */
