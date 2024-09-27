@@ -144,6 +144,12 @@ span {
     
 }
 
+.steam_widget {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .blurb {
     display: grid;
     margin-top: 20px;
@@ -186,14 +192,6 @@ footer ul li{
     background-image: url(./images/TheJourney_Background.png);        
 }
 
-.blogs {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    /* max-width: auto; */
-    margin: 0 10%;
-}
-
 .blog_post {
     width: 70%;
     background-color: bisque;
@@ -216,22 +214,24 @@ footer ul li{
     background-image: url(./images/ThePress_Background.png);
 }
 
-.press {
-    /* display: inline-flex; */
-    justify-content: center;
-    align-items: center;
-    /* max-width: auto; */
-    margin: 0 10%;
+.carousel-item {
+    text-align: center;
 }
 
 .pressClipping {
+    display: inline-block;
     border: 2px solid black;
     width: 1028px;
-    height: 578px;
+    height: 500px;
+}
+
+.steamLink {
+    width: 1028px;
+    max-height: 500px;
 }
 
 iframe {
-    width: 750px;
+    width: 1028px;
 }
 
 /* 'The Team' page specific elements */
