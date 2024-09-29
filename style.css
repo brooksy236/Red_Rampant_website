@@ -18,18 +18,18 @@
     font-family: 'notebookLesser';
     src: url(./fonts/RRNotebookLesser.otf);
   } 
+  @font-face {
+    font-family: 'celticmd';
+    src: url(./fonts/celticmd.ttf);
+  }
 
 /* site-wide elements */
 
 * {
     padding: 0%;
-
-}
-
-html, body, a {
     cursor: url(./images/cursor.cur), auto ;
 }
-
+    
 body {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -42,6 +42,7 @@ ul {
     justify-content: center;
     align-items: flex-start;
     padding-left: 0px;
+    margin: 0px;
 }
 
 li {
@@ -67,6 +68,13 @@ header {
     align-items: center;
 }
 
+.indicator {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
 .parchment {
     position: relative;
     width: 100%;
@@ -77,20 +85,19 @@ header {
 h1 {
     display: inline;
     font-family: dumbledor1;
-    font-size: 5vh;
+    font-size: 5vw;
     position: absolute;
     text-align: center;
-    width: 30%;
+    margin-top: 3%;
     z-index: 1;
 }
 
 h2 {
     font-family: dumbledor1;
-
 }
 
 span {
-    font-family: notebookGreater;
+    font-family: celticmd;
 }
 
 /* 'The Game' page specific elements */
@@ -136,12 +143,13 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;    
+    /* background-image: url(./images/video_background.png); */
+    /* background-repeat: no-repeat; */
 }
 
 .trailer {
     height: 365px;
     width: 600px;
-    
 }
 
 .steam_widget {
@@ -157,17 +165,19 @@ span {
     margin-right: auto;
     width: 50%;
     background-image: url(./images/buttonBackground.png);
-    filter: opacity(50%);
+    filter: opacity(100%);
     border: 5px solid rgb(255, 217, 0);
+    border-radius: 10px;
 }
 
-p {
+.blurb_text {
     display: flex;
-    padding: 0 10px;
+    padding: 0 3px;
     color: rgb(13, 13, 68);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: dumbledor1;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .social_link {
@@ -198,16 +208,6 @@ footer ul li{
     border: 2px solid black;
 }
 
-.navArrow {
-    width: 20%;
-    margin: 10px;
-}
-
-.navArrow img {
-    padding: 25%;
-    width: 50%;
-}
-
 /* 'The Press' page specific elements */
 
 .pressBody {
@@ -216,6 +216,12 @@ footer ul li{
 
 .carousel-item {
     text-align: center;
+}
+
+.arrows {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .pressClipping {
@@ -256,9 +262,9 @@ iframe {
     margin: 10px;
 }
 
-.developer p {
-    font-size: 1.5rem;
-    justify-content: center;
+h4 {
+    font-family: dumbledor1;
+    text-align: center;
 }
 
 .developer img {
@@ -266,28 +272,14 @@ iframe {
     
 }
 
-br {
-    margin: -8px;
+
+.card-text {
+    display: flex;
+    color: rgb(13, 13, 68);
+    font-size: 1.3rem;
+    font-family: dumbledor1;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    line-height: 1.2rem;
 }
-
-/* Carousel  */
-
-/* .carousel .carousel_item {
-    height: 500px;
-}
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    min-height: 500px;
-    top: 0;
-    left: 0;
-}
-
-.carousel-item iframe {
-    position: absolute;
-    object-fit: cover;
-    min-height: 500px;
-    top: 0;
-    left: 0;
-} */
