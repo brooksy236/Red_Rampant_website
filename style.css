@@ -32,7 +32,7 @@
     
 body {
     background-size: 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-color: black;
     z-index: -1 ;
 }
@@ -47,6 +47,13 @@ ul {
 
 li {
     display: flex;
+    margin: 3px;
+    justify-content: center;
+    padding: 2px;
+}
+
+.page_button {
+    display: flex;
     background-image: url(./images/buttonBackground.png);
     margin: 3px;
     border: 1px solid goldenrod;
@@ -60,6 +67,7 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
     color: rgb(13, 13, 68);
+    text-align: center;
 }
 
 header {
@@ -103,7 +111,7 @@ span {
 /* 'The Game' page specific elements */
 
 .gameBody {
-    background-image: url(./images/TheGame_Background.gif);    
+    background-image: url(./images/Background_images/TheGame_Background.gif);    
 }
 
 .gametitle {
@@ -111,12 +119,22 @@ span {
     width: 42%;
     z-index: 1;
 }
+@media (max-width: 1024px) {
+    .gametitle {
+        width: 60%;
+    }
+}
 
 #gameHeader {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+}
+@media (max-width: 1024px) {
+    #gameHeader {
+        width: 75%;
+    }
 }
 
 .companyLogo {
@@ -154,13 +172,14 @@ span {
 
 .steam_widget {
     display: grid;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .blurb {
     display: grid;
-    margin-top: 20px;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -168,6 +187,11 @@ span {
     filter: opacity(100%);
     border: 5px solid rgb(255, 217, 0);
     border-radius: 10px;
+}
+@media (max-width: 1024px) {
+    .blurb {
+        width: 75%;
+    }
 }
 
 .blurb_text {
@@ -181,7 +205,7 @@ span {
 }
 
 .social_link {
-    width: 50px;
+    width: 41px;
 }
 
 footer ul li a {
@@ -199,7 +223,7 @@ footer ul li{
 /* 'The Journey' page specific elements */
 
 .journeyBody {
-    background-image: url(./images/TheJourney_Background.png);        
+    background-image: url(./images/Background_images/TheJourney_Background.png);        
 }
 
 .blog_post {
@@ -211,17 +235,37 @@ footer ul li{
 /* 'The Press' page specific elements */
 
 .pressBody {
-    background-image: url(./images/ThePress_Background.png);
+    background-image: url(./images/Background_images/ThePress_Background.png);
+}
+
+.container {
+    display: flex;
+}
+
+#carousel {
+    display: flex;
 }
 
 .carousel-item {
     text-align: center;
 }
 
-.arrows {
+/* .arrows {
     display: grid;
     justify-content: center;
     align-items: center;
+} */
+
+.left_arrow {
+    margin: auto;
+}
+
+.right_arrow {
+    margin: auto;
+}
+
+.carousel-indicators {
+    position: fixed;
 }
 
 .pressClipping {
@@ -231,19 +275,10 @@ footer ul li{
     height: 500px;
 }
 
-.steamLink {
-    width: 1028px;
-    max-height: 500px;
-}
-
-iframe {
-    width: 1028px;
-}
-
 /* 'The Team' page specific elements */
 
 .teamBody {
-    background-image: url(./images/TheTeam_Background.png);
+    background-image: url(./images/Background_images/TheTeam_Background.png);
 }
 
 .team {
