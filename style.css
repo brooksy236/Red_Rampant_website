@@ -31,8 +31,9 @@
 }
     
 body {
-    background-size: 100%;
-    /* background-size: contain; */
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: black;
     z-index: -1 ;
@@ -242,7 +243,7 @@ span {
 }
 
 .social_link {
-    width: 41px;
+    width: 39px;
 }
 .social_link:hover {
     box-shadow: 1px 1px 15px #FF0000;
