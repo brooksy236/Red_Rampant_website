@@ -120,6 +120,11 @@ h1 {
 h2 {
   font-family: dumbledor1;
 }
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+}
 
 span {
   font-family: celticmd;
@@ -439,14 +444,29 @@ footer ul li {
   width: 250px;
   margin: 10px;
 }
+@media (max-width: 576px) {
+    .developer {
+        width: 200px;
+    }
+}
 
 h4 {
   font-family: dumbledor1;
   text-align: center;
 }
+@media (max-width: 576px) {
+    h4 {
+        font-size: 1.2rem;
+    }
+}
 
 .developer img {
   border: 3px solid gold;
+}
+@media (max-width: 576px) {
+    .developer img {
+        width: 175px;
+    }
 }
 
 .card-text {
@@ -458,4 +478,11 @@ h4 {
   padding-left: 3px;
   padding-right: 3px;
   line-height: 1.2rem;
+}
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        padding-bottom: 10px;
+    }
 }
