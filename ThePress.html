@@ -24,13 +24,37 @@
             <img id="gameLogo" src="./images/RedRampant_Circle.png" alt="">
         </div>
     </header>
-    <ul>
+
+    <div class="social_link_small">
         <li>
             <a href="https://store.steampowered.com/app/2843520/Red_Rampant/" target="_blank">
-                <img class="social_link" src="./images/steam-logo.png" alt="">
+                <img class="social_link social_link_steam " src="./images/steam-logo.png" alt="">
             </a>
         </li>
         <li>
+            <a href="https://www.youtube.com/watch?v=LfBod9BZ-aA" target="_blank">
+                <img class="social_link" src="./images/youtube-logo.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/redrampant?igsh=ZzNtM3g0anZmaTJ4" target="_blank">
+                <img class="social_link" src="./images/instagram-Logo.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.reddit.com/r/RedRampant/s/RsPGZOycYO" target="_blank">
+                <img class="social_link" src="./images/reddit-logo-.png" alt="">
+            </a>
+        </li>
+    </div>
+
+    <ul>
+        <li class="social_link_large">
+            <a href="https://store.steampowered.com/app/2843520/Red_Rampant/" target="_blank">
+                <img class="social_link social_link_steam" src="./images/steam-logo.png" alt="">
+            </a>
+        </li>
+        <li class="social_link_large">
             <a href="https://www.youtube.com/watch?v=LfBod9BZ-aA" target="_blank">
                 <img class="social_link" src="./images/youtube-logo.png" alt="">
             </a>
@@ -42,12 +66,12 @@
             <img class="indicator" src="./images/SelectionArrow.png" alt="">
         </div>
         <li class="page_button"><a href="TheTeam.html">The Team</a></li>
-        <li>
+        <li class="social_link_large">
             <a href="https://www.instagram.com/redrampant?igsh=ZzNtM3g0anZmaTJ4" target="_blank">
                 <img class="social_link" src="./images/instagram-Logo.png" alt="">
             </a>
         </li>
-        <li>
+        <li class="social_link_large">
             <a href="https://www.reddit.com/r/RedRampant/s/RsPGZOycYO" target="_blank">
                 <img class="social_link" src="./images/reddit-logo-.png" alt="">
             </a>
@@ -60,13 +84,17 @@
                 <!-- control button -->                
                 <button class="left_arrow" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                     <div class="arrows">
-                        <!-- <span>Previous</span> -->
                         <img src="./images/BackArrow.png" alt="">
                     </div>
                 </button>
 
+                <button class="carousel-control-prev m left_arrow_mobile" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <img src="./images/BackArrow.png" alt="">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
                 <!-- slides -->
-                <div class="carousel-inner w-100">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
                         <iframe class="pressClipping "
                             src="https://news.stv.tv/north/red-rampant-rewrite-history-in-a-video-game-set-in-the-scottish-wars-of-independence">
@@ -80,7 +108,7 @@
                     <div class="carousel-item">
                         <a href="https://store.steampowered.com/app/2843520/Red_Rampant/" target="_blank"
                             rel="noopener noreferrer">
-                            <img class="pressClipping img-fluid steamLink" src="./images/Steam_screenshot.png"></img>
+                            <img class="pressClipping img-fluid steamLink" ></img>
                         </a>
                     </div>
                 </div>
@@ -88,9 +116,13 @@
                 <!-- control button -->
                 <button class="right_arrow" type="button" data-bs-target="#carousel" data-bs-slide="next">
                     <div class="arrows">
-                        <!-- <span>Next</span> -->
                         <img src="./images/NextArrow.png" alt="">
                     </div>
+                </button>
+
+                <button class="carousel-control-next right_arrow_mobile" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <img src="./images/NextArrow.png" alt="">
+                    <span class="visually-hidden">Next</span>
                 </button>
 
                 <!-- indicators -->
