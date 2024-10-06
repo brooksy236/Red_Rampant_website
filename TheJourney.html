@@ -60,10 +60,10 @@
             </a>
         </li>
         <li class="page_button"><a href="index.html">The Game</a></li>
-    <div class="nav-item ">
-        <li class="page_button"><a href="TheJourney.html">The Journey</a></li>
-        <img class="indicator" src="./images/SelectionArrow.png" alt="">
-    </div>
+        <div class="nav-item ">
+            <li class="page_button"><a href="TheJourney.html">The Journey</a></li>
+            <img class="indicator" src="./images/SelectionArrow.png" alt="">
+        </div>
         <li class="page_button"><a href="ThePress.html">The Press</a></li>
         <li class="page_button"><a href="TheTeam.html">The Team</a></li>
         <li class="social_link_large">
@@ -77,67 +77,82 @@
             </a>
         </li>
     </ul>
+    <div>
+        <div class="container">
+            <div id="carousel" class="carousel slide">
 
-    <div class="container">
-        <div id="carousel" class="carousel slide">
+                <!-- control button -->
+                <button class="left_arrow" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <div class="arrows">
+                        <img src="./images/BackArrow.png" alt="">
+                    </div>
+                </button>
 
-            <!-- slides -->
-            <div class="carousel-inner w-100">
-                <div class="carousel-item active">
-                    <a href="https://store.steampowered.com/app/2843520/Red_Rampant/" target="_blank"
-                            rel="noopener noreferrer">
-                            <img class="pressClipping img-fluid steamLink" ></img>
+                <button class="carousel-control-prev m left_arrow_mobile" type="button" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <img src="./images/BackArrow.png" alt="">
+                </button>
+
+                <!-- slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="blog_post">
+                            <h2><span>N</span>ew Post</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="blog_post">
+                            <h2><span>N</span>ew Post</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item  ">
+                        <div class="blog_post">
+                            <h2><span>N</span>ew Post</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
 
-                </div>
-                <div class="carousel-item  ">
+                <!-- control button -->
+                <button class="right_arrow" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <div class="arrows">
+                        <img src="./images/NextArrow.png" alt="">
+                    </div>
+                </button>
 
+                <button class="carousel-control-next right_arrow_mobile" type="button" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <img src="./images/NextArrow.png" alt="">
+                </button>
+
+
+
+                <!-- indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+
             </div>
+        </div>
+    </div>
 
-            <!-- controls -->
-            <button class="carousel-control-prev m" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <img src="./images/BackArrow.png" alt="">
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <img src="./images/NextArrow.png" alt="">
-                <span class="visually-hidden">Next</span>
-            </button>
-
-            <!-- indicators -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <!-- <div class="navArrow">
-            <img src="./images/BackArrow.png" alt="">
-        </div>
-        <div class="blog_post">
-            <h2><span>N</span>ew Post</h2>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem repellendus quisquam quae nulla maiores
-                vitae, cum vero, ex eveniet dolorem eum voluptates, nesciunt animi quod obcaecati eos id cumque
-                consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe recusandae voluptatibus eum
-                accusantium, quaerat est tenetur voluptatum? Beatae itaque quasi recusandae, provident temporibus,
-                impedit, nostrum similique eaque optio ab nihil. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Placeat at quo reprehenderit expedita sint officia ipsum esse iure fugiat facere enim eligendi
-                alias, in ab cumque architecto ex aperiam eveniet? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Corporis, rem, facilis labore mollitia omnis hic voluptates nobis a modi tempora optio.
-                Repellendus itaque, nemo architecto enim reprehenderit quidem sed repellat?
-            </p>
-        </div>
-        <div class="navArrow">
-            <img src="./images/NextArrow.png" alt="">
-        </div> -->
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 

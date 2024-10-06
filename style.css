@@ -58,6 +58,7 @@ li {
   background-image: url(./images/buttonBackground.png);
   margin: 3px;
   border: 1px solid goldenrod;
+  box-shadow: 5px 5px 15px rgb(37, 16, 16);
   justify-content: center;
   padding: 2px;
   width: 115px;
@@ -121,9 +122,9 @@ h2 {
   font-family: dumbledor1;
 }
 @media (max-width: 576px) {
-    h2 {
-        font-size: 1.3rem;
-    }
+  h2 {
+    font-size: 1.3rem;
+  }
 }
 
 span {
@@ -195,7 +196,6 @@ span {
 .trailer {
   height: 400px;
   width: 600px;
-  box-shadow: 5px 5px 15px rgb(37, 16, 16);
   /* height: 35%; */
   /* width: 60%; */
 }
@@ -203,11 +203,13 @@ span {
   .trailer {
     height: 35%;
     width: 75%;
+    box-shadow: 5px 5px 15px rgb(37, 16, 16);
   }
 }
 @media (max-width: 576px) {
   .trailer {
     width: 90%;
+    box-shadow: 5px 5px 15px rgb(37, 16, 16);
   }
 }
 
@@ -270,6 +272,7 @@ span {
 
 .social_link {
   width: 39px;
+  box-shadow: 5px 5px 15px rgb(37, 16, 16);
 }
 .social_link:hover {
   box-shadow: 1px 1px 15px #ff0000;
@@ -290,12 +293,14 @@ span {
   }
   .small_social_link {
     width: 39px;
+    box-shadow: 5px 5px 15px rgb(37, 16, 16);
   }
 }
 @media (max-width: 576px) {
-    .small_social_link {
-        width: 30px;
-    }
+  .small_social_link {
+    width: 30px;
+    box-shadow: 5px 5px 15px rgb(37, 16, 16);
+  }
 }
 
 .social_link_large {
@@ -326,9 +331,12 @@ footer ul li {
 }
 
 .blog_post {
-  width: 70%;
+  width: 100%;
+  height: 500px;
+  padding: 3%;
   background-color: bisque;
   border: 2px solid black;
+  margin-bottom: 4%;
 }
 
 /* 'The Press' page specific elements */
@@ -383,12 +391,6 @@ footer ul li {
   }
 }
 
-/* .arrows {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-} */
-
 .left_arrow,
 .right_arrow {
   margin: auto;
@@ -427,7 +429,7 @@ footer ul li {
 /* 'The Team' page specific elements */
 
 .teamBody {
-  background-image: url(./images/Background_images/TheTeam_Background.png);
+  background-image: url(./images/Background_images/TheTeam_Background.jpg);
 }
 
 .team {
@@ -445,9 +447,9 @@ footer ul li {
   margin: 10px;
 }
 @media (max-width: 576px) {
-    .developer {
-        width: 200px;
-    }
+  .developer {
+    width: 200px;
+  }
 }
 
 h4 {
@@ -455,18 +457,18 @@ h4 {
   text-align: center;
 }
 @media (max-width: 576px) {
-    h4 {
-        font-size: 1.2rem;
-    }
+  h4 {
+    font-size: 1.2rem;
+  }
 }
 
 .developer img {
   border: 3px solid gold;
 }
 @media (max-width: 576px) {
-    .developer img {
-        width: 175px;
-    }
+  .developer img {
+    width: 175px;
+  }
 }
 
 .card-text {
@@ -480,9 +482,9 @@ h4 {
   line-height: 1.2rem;
 }
 @media (max-width: 576px) {
-    .card-text {
-        font-size: 1.1rem;
-        line-height: 1.1rem;
-        padding-bottom: 10px;
-    }
+  .card-text {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    padding-bottom: 10px;
+  }
 }
