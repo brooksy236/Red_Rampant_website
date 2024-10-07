@@ -199,13 +199,18 @@ span {
   .trailer {
     height: 35%;
     width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     box-shadow: 5px 5px 15px rgb(37, 16, 16);
   }
 }
 @media (max-width: 576px) {
   .trailer {
     width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     box-shadow: 5px 5px 15px rgb(37, 16, 16);
+
   }
 }
 
@@ -458,7 +463,8 @@ footer ul li {
 
 .team {
   display: flex;
-  justify-content: center;
+  justify-content: center;  
+  box-shadow: bisque;
   align-items: center;
 }
 
@@ -489,7 +495,7 @@ h4 {
 }
 
 .developer img {
-  border: 3px double rgb(70, 24, 13);
+  border: 5px double goldenrod;
 }
 @media (max-width: 576px) {
   .developer img {
