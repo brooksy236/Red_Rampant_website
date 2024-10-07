@@ -191,15 +191,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url(./images/video_background.png); */
-  /* background-repeat: no-repeat; */
 }
 
 .trailer {
   height: 400px;
   width: 600px;
-  /* height: 35%; */
-  /* width: 60%; */
 }
 @media (max-width: 768px) {
   .trailer {
@@ -232,7 +228,7 @@ span {
     width: 90%;
   }
 }
-
+/* 
 .blurb {
   display: grid;
   margin-top: 2%;
@@ -270,15 +266,21 @@ span {
     font-size: 1rem;
     line-height: 1rem;
   }
-}
+} */
 
 .social_link {
   width: 39px;
   box-shadow: 5px 5px 15px rgb(37, 16, 16);
+  border-radius: 25%;
 }
 .social_link:hover {
   box-shadow: 1px 1px 15px #ff0000;
   border-radius: 25%;
+}
+.social_link_steam {
+  width: 39px;
+  box-shadow: 5px 5px 15px rgb(37, 16, 16);
+  border-radius: 50%;
 }
 .social_link_steam:hover {
   box-shadow: 1px 1px 15px #ff0000;
@@ -296,12 +298,14 @@ span {
   .small_social_link {
     width: 39px;
     box-shadow: 5px 5px 15px rgb(37, 16, 16);
+    border-radius: 25%;
   }
 }
 @media (max-width: 576px) {
   .small_social_link {
     width: 30px;
     box-shadow: 5px 5px 15px rgb(37, 16, 16);
+    border-radius: 25%;
   }
 }
 
@@ -334,11 +338,31 @@ footer ul li {
 
 .blog_post {
   width: 100%;
-  height: 500px;
-  /* padding: 3%; */
-  background-color: bisque;
-  border: 2px solid black;
+  height: 650px;
   margin-bottom: 4%;
+}
+
+.youtubeVideo {
+  width: 992px;
+  height: 558px;
+}
+@media (max-width: 1200px) {
+  .youtubeVideo {
+    width: 768px;
+    height: 432px;
+  }
+}
+@media (max-width: 768px) {
+  .youtubeVideo {
+    width: 576px;
+    height: 324px;
+  }
+}
+@media (max-width: 576px) {
+  .youtubeVideo {
+    width: 448px;
+    height: 252px;
+  }
 }
 
 /* 'The Press' page specific elements */
