@@ -142,6 +142,8 @@ span {
   }
 }
 
+
+
 .gametitle {
   position: absolute;
   width: 42%;
@@ -333,7 +335,7 @@ footer ul li {
 .blog_post {
   width: 100%;
   height: 500px;
-  padding: 3%;
+  /* padding: 3%; */
   background-color: bisque;
   border: 2px solid black;
   margin-bottom: 4%;
