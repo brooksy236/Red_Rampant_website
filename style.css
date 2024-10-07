@@ -27,7 +27,7 @@
 
 * {
   padding: 0%;
-  cursor: url(./images/cursor.cur), auto;
+  cursor: url(./images/Page_elements/cursor.cur), auto;
 }
 
 body {
@@ -55,7 +55,7 @@ li {
 
 .page_button {
   display: flex;
-  background-image: url(./images/buttonBackground.png);
+  background-image: url(./images/Page_elements/buttonBackground.png);
   margin: 3px;
   border: 1px solid goldenrod;
   box-shadow: 5px 5px 15px rgb(37, 16, 16);
@@ -381,9 +381,48 @@ footer ul li {
   text-align: center;
 }
 
+.theNationalLink {
+  background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023.png);
+  background-position: top;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media (max-width: 1400px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_1400px.png) !important;
+  }
+}
+@media (max-width: 1200px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_992px.png) !important;
+  }
+}
+@media (max-width: 992px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_768px.png) !important;
+  }
+}
+@media (max-width: 768px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_576px.png) !important;
+  }
+}
+@media (max-width: 576px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_480px.png) !important;
+  }
+}
+@media (max-width: 480px) {
+  .theNationalLink {
+    background-image: url(./images/Press_Clippings/The_National_press_clipping_11-2023_480px.png) !important;
+  }
+}
+
 .steamLink {
-  background-image: url(./images/Steam_screenshot.png);
-  background-position: center;
+  background-image: url(./images/Press_Clippings/Steam_screenshot.png);
+  background-position: top;
   background-size: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -391,27 +430,27 @@ footer ul li {
 }
 @media (max-width: 1400px) {
   .steamLink {
-    background-image: url(./images/Steam_screenshot_1400px.png) !important;
+    background-image: url(./images/Press_Clippings/Steam_screenshot_1400px.png) !important;
   }
 }
 @media (max-width: 992px) {
   .steamLink {
-    background-image: url(./images/Steam_screenshot_768px.png) !important;
+    background-image: url(./images/Press_Clippings/Steam_screenshot_768px.png) !important;
   }
 }
 @media (max-width: 768px) {
   .steamLink {
-    background-image: url(./images/Steam_screenshot_576px.png) !important;
+    background-image: url(./images/Press_Clippings/Steam_screenshot_576px.png) !important;
   }
 }
 @media (max-width: 576px) {
   .steamLink {
-    background-image: url(./images/Steam_screenshot_480px.png) !important;
+    background-image: url(./images/Press_Clippings/Steam_screenshot_480px.png) !important;
   }
 }
 @media (max-width: 480px) {
   .steamLink {
-    background-image: url(./images/Steam_screenshot_480px.png) !important;
+    background-image: url(./images/Press_Clippings/Steam_screenshot_480px.png) !important;
   }
 }
 
