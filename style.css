@@ -386,6 +386,45 @@ footer ul li {
   }
 }
 
+.linkedinPostLink {
+  background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post.png);
+  background-position: top;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media (max-width: 1400px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_1400px.png) !important;
+  }
+}
+@media (max-width: 1200px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_992px.png) !important;
+  }
+}
+@media (max-width: 992px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_768px.png) !important;
+  }
+}
+@media (max-width: 768px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_576px.png) !important;
+  }
+}
+@media (max-width: 576px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_480px.png) !important;
+  }
+}
+@media (max-width: 480px) {
+  .linkedinPostLink {
+    background-image: url(./images/Press_Clippings/Brian_Baglow_linkedIn_post_480px.png) !important;
+  }
+}
+
 .steamLink {
   background-image: url(./images/Press_Clippings/Steam_screenshot.png);
   background-position: top;
@@ -417,6 +456,45 @@ footer ul li {
 @media (max-width: 480px) {
   .steamLink {
     background-image: url(./images/Press_Clippings/Steam_screenshot_480px.png) !important;
+  }
+}
+
+.abertayLink {
+  background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024.png);
+  background-position: top;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media (max-width: 1400px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_1400px.png) !important;
+  }
+}
+@media (max-width: 1200px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_992px.png) !important;
+  }
+}
+@media (max-width: 992px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_768px.png) !important;
+  }
+}
+@media (max-width: 768px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_576px.png) !important;
+  }
+}
+@media (max-width: 576px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_480px.png) !important;
+  }
+}
+@media (max-width: 480px) {
+  .abertayLink {
+    background-image: url(./images/Press_Clippings/Abertay_Uni_press_clipping_10-2024_480px.png) !important;
   }
 }
 
@@ -523,4 +601,25 @@ h4 {
 
 .strike_link:hover {
   box-shadow: 5px 5px 15px rgb(37, 16, 16);
+}
+
+/* Wiki page */
+
+.wikiBody {
+  background-color: black;
+  /* background-image: url(./images/Background_images/Lab1.png); */
+  z-index: -1;
+}
+
+.spiderweb {
+  display: flex;
+  background-image: url(./images/Spiderwebs/spider-web-transparent\(9\)-623x400_4dc709c8.png);
+  background-size: cover;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 650px;
+  z-index: -1;
+  
 }
