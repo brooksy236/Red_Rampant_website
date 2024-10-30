@@ -38,6 +38,10 @@ body {
   z-index: -1;
 }
 
+.navigation {
+  margin-bottom: 15px;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -75,6 +79,14 @@ li {
   }
 }
 
+@media (max-width: 480px) {
+  .currentPage {
+    border: 2px solid rgb(209, 131, 13);
+    margin: 2px;
+    text-shadow: 0 0 3px #ff0000;    
+  }
+}
+
 a {
   font-family: "dumbledor1";
   font-size: 1.5rem;
@@ -101,6 +113,12 @@ header {
   margin: auto;
 }
 
+@media (max-width: 480px) {
+  .indicator {
+    display: none;
+  }
+}
+
 .parchment {
   position: relative;
   width: 95%;
@@ -116,6 +134,12 @@ h1 {
   text-align: center;
   margin-top: 3%;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 7vw;
+  }
 }
 
 h2 {
@@ -165,9 +189,21 @@ span {
   }
 }
 
+@media (max-width: 480px) {
+  #gameHeader {
+    width: 100%;
+  }  
+}
+
 .companyLogo {
   display: inline;
   width: 13%;
+}
+
+@media (max-width: 480px) {
+  .companyLogo {
+    display: none;
+  }  
 }
 
 #companyLogo {
@@ -178,6 +214,12 @@ span {
 .gameLogo {
   display: inline;
   width: 9%;
+}
+
+@media (max-width: 480px) {
+  .gameLogo {
+    display: none;
+  }  
 }
 
 #gameLogo {
@@ -254,6 +296,7 @@ span {
   display: none;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6px;
 }
 @media (max-width: 768px) {
   .social_link_small {
